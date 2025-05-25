@@ -1,0 +1,113 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.sidebar {
+    background-color: #1e1e1e;
+    border-left-color: #333;
+}
+
+.sidebar-header {
+    border-bottom-color: #333;
+    background-color: #1e1e1e;
+}
+
+.sidebar-header h2 {
+    color: #e0e0e0;
+}
+
+.conversation-item {
+    background-color: #2d2d2d;
+    border-color: #333;
+    color: #e0e0e0;
+}
+
+.conversation-item:hover {
+    background-color: #3d3d3d;
+}
+
+.conv-date {
+    color: #aaa;
+}
+
+.chat-container {
+    background-color: #121212;
+}
+
+.chat-header {
+    background-color: #1e1e1e;
+    border-bottom-color: #333;
+}
+
+.chat-header h1 {
+    color: #e0e0e0;
+}
+
+.message.user {
+    background-color: #2d3a4b;
+    color: #e0e0e0;
+}
+
+.message.assistant {
+    background-color: #2e7d32;
+    color: white;
+}
+
+.message.error {
+    background-color: #5f2120;
+    color: #ffcdd2;
+}
+
+.input-area {
+    background-color: #1e1e1e;
+    border-top-color: #333;
+}
+
+.input-area input {
+    background-color: #2d2d2d;
+    border-color: #333;
+    color: #e0e0e0;
+}
+
+#toggleDarkMode {
+    background-color: #f5f5f5;
+    color: #121212;
+}
+.message strong {
+    font-weight: bold;
+}
+
+.message em {
+    font-style: italic;
+}
+
+.message ul, .message ol {
+    padding-right: 20px;
+    margin: 10px 0;
+}
+
+.message li {
+    margin-bottom: 5px;
+}
+
+.message code {
+    background-color: rgba(0,0,0,0.1);
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: monospace;
+}
+
+.message pre {
+    background-color: rgba(0,0,0,0.1);
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.message blockquote {
+    border-right: 3px solid #ccc;
+    margin-right: 0;
+    padding-right: 15px;
+    color: #666;
+}
